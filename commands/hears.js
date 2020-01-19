@@ -72,7 +72,7 @@ exports.referrals = async ctx => {
   countReferrals = await user.getCountReferrals(ctx.from.id)
   return ctx.reply(`Количество приглашённых вами друзей: ${countReferrals}\n\n` +
     'Вот ваша ссылка для приглашения:\n' +
-    `https://t.me/test532_bot?start=${ctx.from.id}` +
+    `https://t.me/SportBet7Bot?start=${ctx.from.id}` +
     '\n\nЗа каждого приглашённого друга вы получаете в качестве вознаграждения 1 руб!')
 };
 
